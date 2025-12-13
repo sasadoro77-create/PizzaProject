@@ -1,0 +1,13 @@
+{
+    "name": "lulldev/PizzaProject",
+    "description": "Pizza",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PizzaLibrary\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
