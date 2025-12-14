@@ -1,0 +1,23 @@
+{
+    "name": "your-vendor/pizza-project",
+    "description": "Приложение пиццерии",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "your-vendor/pizza-store": "@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../PizzaStore"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PizzaProject\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
